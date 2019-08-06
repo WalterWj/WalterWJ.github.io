@@ -50,7 +50,7 @@ Please check the Region 26 is in Top
   - 可以使用 split_table_region.py -h 获取帮助
 
 - 使用演示
-{% highlight ruby %}
+```shell
 # 查看帮助
 [tidb@ip-172-16-4-51 scripts]$ ./split_table_region.py -h
 usage: table_split.py [-h] [--th TIDB] [--ph PD] database table
@@ -78,4 +78,4 @@ Index In_age info, id is 2:
   Region id is 26627 and leader id is 26628, Store id is 8 and IP is 172.16.4.59:20160
 We will Split region: ['26627'], y/n(default is yes): y
 Split Region 26627 Command executed 
-{% endhighlight %}
+```
