@@ -1,17 +1,9 @@
-# GitHub 搭建网站
+# 个人博客
 
-> **注意项**
-> * 项目起名推荐使用 `github_id.github.io`
-> * 使用 `jekyll` 来创建初始目录
+## 内容
 
-# 开始搭建
+日常瞎捣鼓，主要内容涵盖：`科研技巧  `  `编程` `电子创作` `大数据`
 
-## 安装 `jekyll`
-> 相关文档: [jekll 中文文档](https://www.jekyll.com.cn/docs/)
+## 网站主题
 
-**安装完成 jekll 之后，创建一个全新的 jekll 网站，然后将生成的文件都复制到新建的 GitHub 项目下，这样就可以开始开发了。**
-
-## GitHub Pages 个人主页
-[GitHub Pages 个人主页搭建](https://iseex.github.io/2019-03/github-pages-create/)
-
-**本项目使用的是 clone 的 `https://github.com/iseex/iseex.github.io` 项目**
+本网站主题在[NexT](http://jekyllthemes.org/themes/jekyll-theme-next/)的基础上修改。
