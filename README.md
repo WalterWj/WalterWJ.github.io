@@ -14,4 +14,4 @@
 ## GitHub Pages 个人主页
 [GitHub Pages 个人主页搭建](https://iseex.github.io/2019-03/github-pages-create/)
 
-**本项目使用的是 clone 的 https://github.com/iseex/iseex.github.io 项目**
+**本项目使用的是 clone 的 `https://github.com/iseex/iseex.github.io` 项目**

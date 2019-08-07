@@ -14,7 +14,7 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:  https://iseex.github.io
+url:  https://walterwj.github.io/
 baseurl:
 permalink: /:year-:month/:title/  #pretty
 
@@ -431,9 +431,9 @@ gitalk:
   enable: false
   clientID: 9cc85294515eed2e31fe # 54730ddf7b9420460c03
   clientSecret: e8491efc431d76ebfe7dbfef3b9d8d97b05e35bd # c05684701b25ff1c19ea0c01ce4d80c125e0707d
-  repo: iseex.github.io # colingpt.github.io
-  owner: iseex # colingpt
-  admin: iseex # colingpt
+  repo: https://walterwj.github.io/ # colingpt.github.io
+  owner: walterwj # colingpt
+  admin: walterwj # colingpt
 
 
 
