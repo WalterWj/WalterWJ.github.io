@@ -26,7 +26,7 @@
 **格式参考：**[PingCAP 中文技术文档风格指南](https://docs.google.com/document/d/1b6ZhZD33OoM8AacpKksGGSuxJWReLkNnSt8eSc1kTXc/edit)
 
 * 先 fork 相关项目
-* 将官方项目的 commit 提交记录同步到自己 fork 的项目中
+* 配置将官方项目的 commit 提交记录同步到自己 fork 的项目中
 * 如果想给官网项目提交 pr，成为 Contribute:
   - 先在自己 fork 的项目中，切一个分支
   - 在分支中修改完成之后，pull 一下官方项目，查看是否有冲突
@@ -41,4 +41,78 @@
 
 # 操作
 
-* 拉取
+* fork 相关项目到自己的 GitHub 中
+
+![](./template/pr-01.png)
+
+* git clone 项目到本地
+
+```shell
+git clone https://github.com/WalterWj/docs-cn.git
+```
+
+* 配置将官方项目的 commit 提交记录同步到自己 fork 的项目中
+
+```shell
+# 查看列举本地 master 分支的个人远程仓库
+wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git remote -v
+origin  https://github.com/WalterWj/docs-cn.git (fetch)
+origin  https://github.com/WalterWj/docs-cn.git (push)
+
+# 本地分支关联官方源远程仓库，使用远程仓库的地址，并设置一个别名
+wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git remote add followPingCAP-DOCS https://github.com/pingcap/docs-cn.git
+wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git remote -v
+followPingCAP-DOCS      https://github.com/pingcap/docs-cn.git (fetch)
+followPingCAP-DOCS      https://github.com/pingcap/docs-cn.git (push)
+origin  https://github.com/WalterWj/docs-cn.git (fetch)
+origin  https://github.com/WalterWj/docs-cn.git (push)
+
+# 将源远程仓库项目 pull 到本地 master 分支
+wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git pull followPingCAP-DOCS // down 到本地
+wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git add .
+wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git commit -m 'master' // 需要先将修改 commit 到本地
+wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git push origin // 推到自己的 GitHub 中
+```
+
+**这样就能保持自己 fork 的项目和官方保持一致**
+
+* 切分支/修改文档/上推到本地
+
+```shell
+wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git checkout -b 'WalterWJ'
+wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git branch
+* WalterWJ
+  master
+
+# 然后修改想修改文档的内容
+
+wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git status // 查看修改的文件
+wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git add v3.0/reference/tispark.md
+wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git commit -s -m 'update tispark faq'
+wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git pull followPingCAP-DOCS master // 拉取官方最新 commit，确认没有冲突，可不做
+wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git push origin WalterWJ // 上推到自己 fork 的项目中
+```
+
+**这样我们修改内容就会同步到自己 fork 的项目中去**
+
+* 登录自己的 GitHub，将自己的修改推到官方
+
+**推送按钮**
+
+![](./template/pr-02.png)
+
+**推送**
+
+![](./template/pr-03.png)
+
+**选择帮忙 review 的人,并且 at 相关人员**
+
+![](./template/pr-04.png)
+
+**review 完成之后，进行 merge**
+
+![](./template/pr-05.png)
+
+**完成**
+
+![](./template/pr-06.png)
