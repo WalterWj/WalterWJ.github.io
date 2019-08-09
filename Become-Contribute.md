@@ -109,7 +109,7 @@ wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git push origin WalterWJ
 
 ![](./template/pr-04.png)
 
-**review 完成之后，进行 merge**
+**review 完成之后，点击 `Merge pull request` 进行 merge**
 
 ![](./template/pr-05.png)
 
