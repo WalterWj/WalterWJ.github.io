@@ -32,7 +32,7 @@ typora-root-url: ../../WalterWJ.github.io
 
 # 给 PingCAP 提交代码流程
 
-**格式参考：**[PingCAP 中文技术文档风格指南](https://docs.google.com/document/d/1b6ZhZD33OoM8AacpKksGGSuxJWReLkNnSt8eSc1kTXc/edit)
+<!-- **格式参考：**[PingCAP 中文技术文档风格指南](https://docs.google.com/document/d/1b6ZhZD33OoM8AacpKksGGSuxJWReLkNnSt8eSc1kTXc/edit) -->
 
 * 先 fork 相关项目
 * 配置将官方项目的 commit 提交记录同步到自己 fork 的项目中
