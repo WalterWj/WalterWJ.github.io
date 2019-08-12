@@ -115,7 +115,7 @@ wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git push origin WalterWJ
 
 **合并完成之后，删除 GitHub 上自己创建的分支，本地可以本地删除也可以不做处理**
 
-![](./tmemplte/pr-07.png)
+![](./template/pr-07.png)
 
 **完成**
 
