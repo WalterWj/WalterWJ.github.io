@@ -1,3 +1,12 @@
+---
+title: 成为 PinCAP 的 contribute
+date: 2019-08-12 00:00:00
+categories:
+- GitHub 学习
+tags:
+- 笔记
+typora-root-url: ../../WalterWJ.github.io
+---
 # 作用
   帮助想成为 PingCAP 的 contribute 的人
 
