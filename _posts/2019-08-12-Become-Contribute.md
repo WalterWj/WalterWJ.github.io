@@ -43,7 +43,7 @@
 
 * fork 相关项目到自己的 GitHub 中
 
-![](./template/pr-01.png)
+![](/assets/images/PostsImages/Become-Contribute-template/pr-01.png)
 
 * git clone 项目到本地
 
@@ -99,24 +99,24 @@ wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git push origin WalterWJ
 
 **推送按钮**
 
-![](./template/pr-02.png)
+![](/assets/images/PostsImages/Become-Contribute-template/pr-02.png)
 
 **推送**
 
-![](./template/pr-03.png)
+![](/assets/images/PostsImages/Become-Contribute-template/pr-03.png)
 
 **选择帮忙 review 的人,并且 at 相关人员**
 
-![](./template/pr-04.png)
+![](/assets/images/PostsImages/Become-Contribute-template/pr-04.png)
 
 **review 完成之后，点击 `Merge pull request` 进行 merge**
 
-![](./template/pr-05.png)
+![](/assets/images/PostsImages/Become-Contribute-template/pr-05.png)
 
 **合并完成之后，删除 GitHub 上自己创建的分支，本地可以本地删除也可以不做处理**
 
-![](./template/pr-07.png)
+![](/assets/images/PostsImages/Become-Contribute-template/pr-07.png)
 
 **完成**
 
-![](./template/pr-06.png)
+![](/assets/images/PostsImages/Become-Contribute-template/pr-06.png)
