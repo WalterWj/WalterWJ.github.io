@@ -77,9 +77,10 @@ origin  https://github.com/WalterWj/docs-cn.git (fetch)
 origin  https://github.com/WalterWj/docs-cn.git (push)
 
 # 将源远程仓库项目 pull 到本地 master 分支
-wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git pull followPingCAP-DOCS // down 到本地
-wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git add .
-wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git commit -m 'master' // 需要先将修改 commit 到本地
+wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git pull followPingCAP-DOCS master // down 到本地
+# wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git add .
+# wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git commit -m 'master' // 需要先将修改 commit 到本地
+wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git status // 查看状态
 wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git push origin // 推到自己的 GitHub 中
 ```
 
