@@ -82,6 +82,9 @@ wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git pull followPingCAP-D
 # wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git commit -m 'master' // 需要先将修改 commit 到本地
 wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git status // 查看状态
 wangjun@wangjundeMacBook-Pro:~/PycharmProjects/docs-cn$ git push origin // 推到自己的 GitHub 中
+
+# 当配置好之后，可以使用 fetch 命令进行同步
+wangjun@wangjundeMacBook-Pro:~/PycharmProjects/tidb-ansible$ git fetch followPingCAP-DOCS master
 ```
 
 **这样就能保持自己 fork 的项目和官方保持一致**
