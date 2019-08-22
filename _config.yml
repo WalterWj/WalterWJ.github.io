@@ -457,8 +457,8 @@ wildfire:
 # 参考https://qiubaiying.github.io/2017/12/19/%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0-Gitalk-%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6/ 配置
 gitalk:
   enable: true
-  clientID: 38e60c5eff148264596b
-  clientSecret: b6514b1015c81ee2c815e9e9b35e23851a209087
+  clientID: f9055d3760ff0b27af25
+  clientSecret: b35fd33a4a85ef5ca3532bf6582b2f561cee588b
   repo: walterwj.github.io #仓库名称
   owner: WalterWj  #github用户名
   admin: WalterWj
