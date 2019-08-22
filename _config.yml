@@ -462,7 +462,7 @@ gitalk:
   repo: walterwj.github.io #仓库名称
   owner: WalterWj  #github用户名
   admin: WalterWj
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+  distractionFreeMode: false #是否启用类似FB的阴影遮罩
 
 # Baidu Share
 # Available value:
