@@ -5,7 +5,7 @@ categories:
 - TiDB 学习
 tags:
 - TiDB
--  统计信息
+- 统计信息
 typora-root-url: ../../WalterWJ.github.io
 ---
 
